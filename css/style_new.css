@@ -1,0 +1,274 @@
+    @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+    @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@1,700&display=swap');
+        
+        * {
+            margin: auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       body{
+            background-color: #e8faf9;
+        }
+       
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        #container {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        header {
+            width: 1200px;
+            height: 110px;
+            background-color: #656666;
+        }
+
+        #logo {
+            float: left;
+            width: 250px;
+            height: 100px;
+            line-height: 100px;
+            padding-left: 40px;
+        }
+
+        #logo h1 {
+            font-family: 'Kodchasan', sans-serif;
+            font-weight: 700;
+            font-size: 45px;
+            color: rgb(255, 255, 255);
+            text-shadow: 0 -1px 0 #222;
+        }
+
+        nav {
+            float: left;
+            width: 1200px;
+            height: 100px;
+            font-size: 15px;
+            color: white;
+            position: absolute;
+            top: 72px;
+            padding-right: 30px;
+        }
+
+        header a {
+            color: white;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        #topMenu {
+            height: 60px;
+        }
+
+        #topMenu>li {
+            float: right;
+            position: relative;
+            
+        }
+
+        #topMenu>li>a {
+            display: block;
+            color: #fff;
+            font-weight: 600;
+            text-shadow: 0 1px #07c;
+            padding: 9px 40px;
+        }
+
+        #topMenu>li>a:hover {
+            color: #000;
+            text-shadow: 0 -1px #07c;
+        }
+
+        #topMenu>li>ul {
+            display: none;
+            position: absolute;
+            width: 160px;
+            background-color: rgba(255, 255, 255, 0.8);
+            right: 1px;
+            left: 0px;
+            margin: 0;
+        }
+
+        #topMenu>li>ul>li {
+            padding: 10px 10px 10px 30px;
+        }
+
+        #topMenu>li>ul>li>a {
+            font-size: 16px;
+            padding: 0px;
+            color: #000;
+        }
+
+        #topMenu>li:hover>ul {
+            display: block;
+            z-index: 10;
+        }
+
+        #topMenu>li>ul>li>a:hover {
+            color: #f00;
+            
+        }
+
+
+
+
+
+        #image {
+            clear: both;
+            width: 1200px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+       
+        
+
+        #contents {
+            width: 1200px;
+            height: 1850px;
+            
+        }
+
+        aside {
+            border: 4px solid rgb(45, 46, 46);
+            border-right: 3px solid rgb(45, 46, 46);
+            float: left;
+            width: 250px;
+            height: 100%;
+            padding-top: 10px;
+            padding-left: 5px;
+            background-color: #656666;
+            padding: 10px;
+            padding-top: 25px;
+            color: white;
+            border-radius: 30px;
+        }
+  
+        
+        section {
+            float: right;
+            width: 950px;
+            height: 100%;
+            background-color: white;
+            overflow: hidden;
+            position: relative;
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            border-radius: 30px;
+            border: 4px solid rgb(45, 46, 46);
+            border-left: 3px solid rgb(45, 46, 46);
+            background-color: ivory;
+        }
+
+        
+        footer {
+            
+            width: 1200px;
+            height: 100px;
+            background-color: #656666;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+
+        #left-button{
+            
+            cursor: pointer;
+            position: absolute;
+            width: 400px;
+            height: 495px;
+            top: 185px;
+            left: 70px;
+            background-color: transparent;
+            border: none;
+        }
+        #right-button{
+            
+            cursor: pointer;
+            position: absolute;
+            width: 400px;
+            height: 495px;
+            top: 185px;
+            right: 70px;
+            background-color: transparent;
+            border: none;
+        }
+        aside h1{
+            margin-left: 10px;
+            font-size: 34px;
+        }
+
+        #navi{
+            
+          position: relative;
+          font-size: 23px;
+          font-family: Raleway, sans-serif;
+          background: #656666;
+          padding: 10px;
+        }
+
+        .title{
+            padding: 5px;
+            
+        }
+        .sub li{
+            background: white;
+            padding: 4px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .sub >li >a{
+            color: black;
+            font-size: 18px;
+
+        }
+        
+
+        article h1{
+            padding: 30px;
+            font-size: 40px;
+        }
+        article h2{
+            padding-left: 70px;
+            font-size: 15px;
+        }
+
+        #introduce {
+            padding: 30px;
+            font-size: 20px;
+        }
+
+        #introduce li{
+            font-weight: bold;   
+        }
+
+        #introduce h4{
+            font-weight: normal;   
+        }
+
+        hr{
+            margin-top: 20px;
+            color: black;
+            height: 5px;
+            background-color: black;
+            margin-bottom: 10px;
+        }
+
+        section h1{
+            text-align: center;
+        }
+
+        article >h1> a{
+            font-size: 30px;
+        }
