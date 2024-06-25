@@ -12,7 +12,7 @@
 
 주요 기능 
 
-<img src = "https://github.com/"></img>
+<img src = "https://github.com/suwho18/Natural_Heritage/blob/main/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%801.png"></img>
 
 표로 매물 검색 - 지역별, 가격별, 이름별 검색 가능. 검색 조건에 맞는 부동산 매물의 정보(이름, 주소, 전세가율, 최대/최소 전세가, 최대/최소 매매가, 실거래가) 표시.
 
